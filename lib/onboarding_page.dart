@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
 
+import 'package:onboarding_screen_app/onboarding_entity.dart ';
+import 'package:onboarding_screen_app/onboarding_item.dart';
+
 class OnboardingPage extends StatelessWidget{
   OnboardingPage({super.key});
 

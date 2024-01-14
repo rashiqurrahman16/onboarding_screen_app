@@ -1,11 +1,13 @@
 import 'package:flutter/material.dart';
 
+import 'package:onboarding_screen_app/onboarding_page.dart';
+
 void main(){
-  runApp(const onBoarding());
+  runApp(const Onboarding());
 }
 
-class onBoarding extends StatelessWidget{
-  const onBoarding({super.key});
+class Onboarding extends StatelessWidget{
+  const Onboarding({super.key});
 
 
   @override

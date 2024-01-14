@@ -10,8 +10,21 @@ class OnBoardingEntity{
 });
 
   static List<OnBoardingEntity> onBoardingData = [
-
-  ]
-
+    OnBoardingEntity(
+        title: "Order Your Wish",
+        description: "You can order everything, \nyou love to eat.",
+        image: "image_1.png"
+    ),
+    OnBoardingEntity(
+        title: "Hot and Spicy",
+        description: "Order hot and spicy, \nFOOD with happiness.",
+        image: "image_2.png"
+    ),
+    OnBoardingEntity(
+        title: "Happy Cookies",
+        description: "Oreder BEST Cookies, \nand Enjoy",
+        image: "image_3.png"
+    )
+  ];
 
 }
